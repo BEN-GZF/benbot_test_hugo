@@ -1,0 +1,81 @@
+########################## hero area ##########################
+hero:
+  title: "I'm Ben Guo"
+
+  # animated text loop
+  occupations:
+    - 'UCONN Student'
+    - 'Majoring in Computer Science'
+    - 'Love and Exploring AI'
+
+  # hero background image
+  bg_image: 'images/background1.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/xiaohu.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/me.jpg'
+  title: 'THIS IS ME'
+  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
+  button:
+    enable: true
+    label: 'DOWNLOAD MY RESUME'
+    link: 
+    icon: 'fa-download'
+
+###########################3 Experience ##############################
+experience:
+  enable: true
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Research Assistant - Saliency Map & Tracking Visualization
+      company: University of Connecticut
+      duration: 'Mar 2025 - Present'
+      content: Built a custom GUI to display model-generated saliency maps and YOLO tracking for autonomous driving research. Integrated local and HPC-based workflows to visualize AI interpretation results using and PyTorch.
+
+############################### Skill #################################
+skill:
+  enable: true
+  title: 'SOME SKILLS'
+  showpercent: false
+  skill_list:
+    - name: 'Python'
+      percentage: '85%'
+
+    - name: 'learning'
+      percentage: '93%'
+
+    - name: 'Gaming'
+      percentage: '80%'
+
+    - name: 'Yelling'
+      percentage: '10%'
+
+######################### funfacts #############################3
+funfacts:
+  enable: true
+  funfacts_list:
+    - name: 'CUPS PER DAY'
+      image: 'images/icons/coffee.png'
+      count: '2'
+
+    - name: 'SITES BUILT'
+      image: 'images/icons/web-development.png'
+      count: '1'
+
+    - name: 'Projects and Researches'
+      image: 'images/icons/project.png'
+      count: '1'
+
+############################# portfolio ################################
+portfolio:
+  enable: False 
+  title: 'MY WORK'
+  portfolio_list:
+    - name: Hugo
+      image: #
+      url: #
+      description: #
+    
